@@ -8,6 +8,29 @@ export const siteConfig = {
   description:
     "Tenha sua própria plataforma EAD com seu domínio, zero comissões sobre vendas, recebimento direto via Asaas, sala virtual moderna e aplicativos nativos para Android e iOS.",
   url: "https://ioedu.com.br",
+  ogImage: "https://ioedu.com.br/images/admin-clean.png",
+  keywords: [
+    "io.edu",
+    "LMS",
+    "plataforma LMS",
+    "plataforma EAD",
+    "sistema EAD",
+    "plataforma de cursos online",
+    "vender cursos online sem taxas",
+    "LMS sem comissões",
+    "plataforma EAD com domínio próprio",
+    "aplicativos nativos Android iOS cursos",
+    "sala de aula virtual moderna",
+    "LMS com integração Asaas",
+    "alternativa Hotmart domínio próprio",
+    "alternativa Kiwify domínio próprio",
+    "sistema de gestão de aprendizagem",
+    "plataforma para infoprodutores",
+    "escola online",
+    "software educacional",
+    "gestão de alunos e cursos",
+    "plataforma educacional white-label"
+  ],
 
   // Contato comercial / WhatsApp
   whatsapp: {
