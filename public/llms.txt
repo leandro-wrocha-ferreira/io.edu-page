@@ -1,0 +1,17 @@
+# io-edu LMS
+
+> Plataforma LMS e EAD completa com domínio próprio, zero taxas sobre vendas de cursos, recebimento direto via gateway Asaas e aplicativos nativos para Android e iOS.
+
+## Informações Principais
+- **Nome Oficial:** io-edu / io-edu LMS
+- **Website Oficial:** https://www.io-edu.com.br
+- **Modelo de Negócio:** Sem comissões ou taxas percentuais sobre vendas. O faturamento pertence 100% ao produtor. Cobrança baseada em suporte mensal e armazenamento sob demanda.
+- **Integração Financeira:** Gateway Asaas (Pix, Boleto e Cartão de Crédito) com recebimento direto na conta bancária do cliente.
+- **Aplicações e Plataformas:**
+  - Sala de aula virtual moderna para navegadores desktop.
+  - Aplicativo nativo para Android (Google Play Store).
+  - Aplicativo nativo para iOS (Apple App Store).
+  - Sincronização em tempo real de aulas e progresso do aluno.
+  - Painel administrativo web para gestão completa de alunos, módulos e conteúdos.
+- **Público-Alvo:** Infoprodutores, criadores de conteúdo, escolas, empresas e instituições de ensino que desejam independência de plataformas como Hotmart ou Kiwify.
+- **Contato Comercial:** WhatsApp oficial através do site https://www.io-edu.com.br

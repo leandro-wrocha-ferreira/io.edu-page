@@ -25,11 +25,11 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: "io-edu — Sua Própria Plataforma de Ensino (LMS) EAD",
+    default: "io-edu | Plataforma LMS e EAD com Seu Domínio e Zero Comissões",
     template: "%s | io-edu LMS",
   },
   description:
-    "Plataforma LMS completa com seu próprio domínio, zero taxas sobre vendas de cursos, recebimento direto via gateway Asaas, sala virtual moderna e aplicativos nativos para Android e iOS.",
+    "io-edu é a plataforma LMS completa para criar e vender cursos online no seu próprio domínio. 0% de taxas sobre vendas, recebimento direto via gateway Asaas e aplicativos nativos para Android e iOS.",
   applicationName: "io-edu LMS",
   authors: [{ name: "io-edu", url: siteConfig.url }],
   generator: "Next.js",
@@ -39,6 +39,15 @@ export const metadata: Metadata = {
   category: "education",
   alternates: {
     canonical: siteConfig.url,
+    languages: {
+      "pt-BR": siteConfig.url,
+    },
+  },
+  verification: {
+    google: siteConfig.googleVerification || undefined,
+    other: siteConfig.bingVerification
+      ? { "msvalidate.01": siteConfig.bingVerification }
+      : undefined,
   },
   icons: {
     icon: [
@@ -48,9 +57,9 @@ export const metadata: Metadata = {
     apple: "/favicon.svg",
   },
   openGraph: {
-    title: "io-edu — Sua Própria Plataforma de Ensino (LMS) EAD",
+    title: "io-edu | Plataforma LMS e EAD com Seu Domínio e Zero Comissões",
     description:
-      "LMS completo com gestão web, sala de aula virtual moderna e aplicativos nativos para Android e iOS. Venda cursos online direto na sua conta bancária sem comissões.",
+      "io-edu: LMS completo com gestão web, sala de aula virtual moderna e aplicativos nativos para Android e iOS. Venda cursos online direto na sua conta bancária sem comissões.",
     url: siteConfig.url,
     siteName: "io-edu LMS",
     locale: "pt_BR",
@@ -66,9 +75,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "io-edu — Sua Própria Plataforma de Ensino (LMS) EAD",
+    title: "io-edu | Plataforma LMS e EAD com Seu Domínio e Zero Comissões",
     description:
-      "Plataforma LMS definitiva com zero taxas sobre vendas, gateway Asaas e aplicativos nativos para Android e iOS.",
+      "io-edu: Plataforma LMS definitiva com zero taxas sobre vendas, gateway Asaas e aplicativos nativos para Android e iOS.",
     images: ["/images/admin-clean.png"],
     creator: "@io_edu",
   },

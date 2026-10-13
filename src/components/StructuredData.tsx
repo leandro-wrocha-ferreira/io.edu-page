@@ -9,6 +9,7 @@ export function StructuredData() {
         "@id": `${siteConfig.url}/#website`,
         url: siteConfig.url,
         name: siteConfig.name,
+        alternateName: ["io-edu", "io edu", "ioedu", "io-edu LMS", "io-edu.com.br"],
         description: siteConfig.tagline,
         inLanguage: "pt-BR",
         publisher: {
@@ -19,7 +20,9 @@ export function StructuredData() {
         "@type": "Organization",
         "@id": `${siteConfig.url}/#organization`,
         name: siteConfig.name,
+        alternateName: ["io-edu", "io edu LMS"],
         url: siteConfig.url,
+        sameAs: ["https://io-edu.com.br"],
         logo: {
           "@type": "ImageObject",
           url: `${siteConfig.url}/favicon.svg`,

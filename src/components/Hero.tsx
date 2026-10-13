@@ -50,6 +50,8 @@ export function Hero() {
         <div className="flex flex-col items-center text-center">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-50 border border-indigo-200/80 text-indigo-700 text-xs sm:text-sm font-semibold mb-6 shadow-xs">
             <Sparkles className="w-4 h-4 text-[#4f46e5]" />
+            <span className="font-bold text-[#4f46e5]">io-edu LMS</span>
+            <span className="text-slate-300">•</span>
             <span>Sua Própria Plataforma EAD</span>
             <span className="text-slate-300">•</span>
             <span className="text-emerald-600 font-bold">0% de Taxa sobre Vendas</span>
@@ -57,13 +59,12 @@ export function Hero() {
 
           {/* Main Headline */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-slate-900 max-w-4xl leading-[1.12] mb-6">
-            Venda seus cursos no seu próprio domínio,{" "}
-            <span className="text-[#4f46e5]">sem comissões</span> sobre o seu faturamento.
+            Plataforma <span className="text-[#4f46e5]">io-edu</span>: Venda seus cursos no seu próprio domínio, sem comissões sobre o seu faturamento.
           </h1>
 
           {/* Subtitle - Item 1: Atualizado focado em aplicações nativas Android e iOS */}
           <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl leading-relaxed mb-9">
-            Tudo o que você vende é <strong>100% seu</strong>, com pagamentos caindo direto na sua conta via Asaas. Tenha gestão web completa, sala de aula virtual moderna no computador e <strong>aplicativos nativos para Android e iOS</strong>.
+            Com o <strong>io-edu</strong>, tudo o que você vende é <strong>100% seu</strong>, com pagamentos caindo direto na sua conta via Asaas. Tenha gestão web completa, sala de aula virtual moderna no computador e <strong>aplicativos nativos para Android e iOS</strong>.
           </p>
 
           {/* Primary Action Buttons */}
