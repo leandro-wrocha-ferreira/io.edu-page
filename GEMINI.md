@@ -2,7 +2,7 @@
 
 ## 1. Visão Geral do Projeto
 
-Landing page institucional e de conversão da plataforma **io.edu** (Plataforma Educacional / LMS moderna com gestão web, sala de aula interativa e aplicativos móveis nativos para Android e iOS).
+Landing page institucional e de conversão da plataforma **io-edu** (Plataforma Educacional / LMS moderna com gestão web, sala de aula interativa e aplicativos móveis nativos para Android e iOS).
 
 - **Framework:** Next.js (App Router)
 - **Linguagem:** TypeScript
@@ -73,7 +73,7 @@ io.edu-page/
 │   │   ├── PlatformFeatures.tsx# Tabs interativas (Sala de Aula, Gestão, Conteúdo, etc.)
 │   │   ├── MobileTabletExperience.tsx # Experiência mobile & tablet (apps nativos Android/iOS)
 │   │   ├── CommercialModel.tsx # Modelo de cobrança por aluno ativo (sem taxas abusivas)
-│   │   ├── ComparisonTable.tsx # Tabela comparativa (io.edu vs Concorrentes)
+│   │   ├── ComparisonTable.tsx # Tabela comparativa (io-edu vs Concorrentes)
 │   │   ├── CTASection.tsx      # Chamada para ação e demonstração gratuita
 │   │   ├── FAQ.tsx             # Perguntas frequentes com acordeão interativo
 │   │   ├── Footer.tsx          # Rodapé com links e copyright

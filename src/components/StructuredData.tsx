@@ -25,7 +25,7 @@ export function StructuredData() {
           url: `${siteConfig.url}/favicon.svg`,
         },
         description:
-          "Provedora da plataforma educacional e LMS io.edu com gestão web e aplicativos móveis nativos para Android e iOS.",
+          "Provedora da plataforma educacional e LMS io-edu com gestão web e aplicativos móveis nativos para Android e iOS.",
         contactPoint: {
           "@type": "ContactPoint",
           telephone: siteConfig.whatsapp.number.replace(/\D/g, ""),
@@ -37,7 +37,7 @@ export function StructuredData() {
       {
         "@type": "SoftwareApplication",
         "@id": `${siteConfig.url}/#software`,
-        name: "io.edu LMS",
+        name: "io-edu LMS",
         applicationCategory: "EducationalApplication",
         operatingSystem: "Web Browser, Android, iOS",
         url: siteConfig.url,
@@ -76,7 +76,7 @@ export function StructuredData() {
             name: "Como recebo os pagamentos das vendas dos meus cursos?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "O io.edu integra nativamente com o gateway de pagamentos Asaas. Você cria sua conta no Asaas, cadastra a sua chave de API na plataforma e o dinheiro de todas as vendas (Pix, Cartão e Boleto) cai diretamente na sua conta bancária, com as menores taxas do mercado e sem intermediários retendo seu saldo por semanas.",
+              text: "O io-edu integra nativamente com o gateway de pagamentos Asaas. Você cria sua conta no Asaas, cadastra a sua chave de API na plataforma e o dinheiro de todas as vendas (Pix, Cartão e Boleto) cai diretamente na sua conta bancária, com as menores taxas do mercado e sem intermediários retendo seu saldo por semanas.",
             },
           },
           {

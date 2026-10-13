@@ -13,7 +13,7 @@ export function Footer() {
                 <GraduationCap className="w-5 h-5" />
               </div>
               <span className="text-xl font-bold tracking-tight text-slate-900">
-                io<span className="text-[#4f46e5]">.edu</span>
+                io<span className="text-[#4f46e5]">-edu</span>
               </span>
             </div>
             <p className="text-sm text-slate-600 max-w-sm leading-relaxed">
@@ -53,7 +53,7 @@ export function Footer() {
               Fale diretamente com nosso time no WhatsApp para tirar dúvidas e solicitar uma proposta:
             </p>
             <a
-              href={getWhatsAppUrl("Olá! Gostaria de conversar com a equipe comercial do io.edu LMS.")}
+              href={getWhatsAppUrl("Olá! Gostaria de conversar com a equipe comercial do io-edu LMS.")}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-700 hover:bg-emerald-100 font-medium text-xs transition-colors w-fit"
@@ -66,7 +66,7 @@ export function Footer() {
 
         {/* Bottom copyright */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <p>© 2026 io.edu. Todos os direitos reservados.</p>
+          <p>© 2026 io-edu. Todos os direitos reservados.</p>
           <p>Plataforma para gestão e venda de cursos online</p>
         </div>
       </div>

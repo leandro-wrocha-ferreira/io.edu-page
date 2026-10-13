@@ -29,7 +29,7 @@ export function FloatingWhatsApp() {
 
       {/* Floating Action Button */}
       <a
-        href={getWhatsAppUrl("Olá! Estava navegando na página do io.edu LMS e gostaria de tirar dúvidas sobre a plataforma pelo WhatsApp.")}
+        href={getWhatsAppUrl("Olá! Estava navegando na página do io-edu LMS e gostaria de tirar dúvidas sobre a plataforma pelo WhatsApp.")}
         target="_blank"
         rel="noopener noreferrer"
         className="relative w-14 h-14 rounded-full bg-[#25D366] hover:bg-[#20ba59] text-white flex items-center justify-center shadow-xl glow-whatsapp transition-transform duration-300 transform group-hover:scale-110 focus:outline-none focus:ring-4 focus:ring-emerald-300"

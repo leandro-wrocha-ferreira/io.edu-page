@@ -16,13 +16,13 @@ export function Navbar() {
           <Link
             href="#"
             className="flex items-center gap-2.5 group focus:outline-none"
-            aria-label="io.edu - Início"
+            aria-label="io-edu - Início"
           >
             <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-[#4f46e5] to-[#312e81] flex items-center justify-center text-white shadow-md shadow-indigo-500/20 group-hover:scale-105 transition-transform">
               <GraduationCap className="w-6 h-6" />
             </div>
             <span className="text-2xl font-bold tracking-tight text-slate-900 leading-none">
-              io<span className="text-[#4f46e5]">.edu</span>
+              io<span className="text-[#4f46e5]">-edu</span>
             </span>
           </Link>
 

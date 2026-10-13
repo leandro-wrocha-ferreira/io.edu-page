@@ -28,7 +28,7 @@ export function CTASection() {
           {/* Big WhatsApp CTA Button */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
             <a
-              href={getWhatsAppUrl("Olá! Gostaria de agendar uma demonstração da plataforma io.edu LMS e entender a proposta comercial.")}
+              href={getWhatsAppUrl("Olá! Gostaria de agendar uma demonstração da plataforma io-edu LMS e entender a proposta comercial.")}
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 sm:py-5 rounded-2xl bg-[#25D366] hover:bg-[#20ba59] text-white font-extrabold text-lg shadow-xl glow-whatsapp transition-all transform hover:-translate-y-1"

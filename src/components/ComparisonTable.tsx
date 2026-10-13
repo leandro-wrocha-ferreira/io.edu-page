@@ -71,7 +71,7 @@ export function ComparisonTable() {
             <span>Comparativo de Mercado</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight mb-5">
-            Por que escolher o <span className="text-[#4f46e5]">io.edu</span>?
+            Por que escolher o <span className="text-[#4f46e5]">io-edu</span>?
           </h2>
           <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
             Não perca parte do seu faturamento pagando taxas sobre vendas e evite gastar fortunas tentando construir um software do zero.
@@ -95,7 +95,7 @@ export function ComparisonTable() {
                   </th>
                   <th className="py-4 px-4 text-sm font-bold text-[#4f46e5] text-center w-1/5 bg-indigo-50/70 border-x border-indigo-200">
                     <span className="flex items-center justify-center gap-1.5">
-                      <span>io.edu LMS</span>
+                      <span>io-edu LMS</span>
                     </span>
                   </th>
                 </tr>
@@ -133,7 +133,7 @@ export function ComparisonTable() {
                       )}
                     </td>
 
-                    {/* io.edu */}
+                    {/* io-edu */}
                     <td className="py-4 px-4 text-sm text-center font-semibold text-slate-900 bg-indigo-50/40 border-x border-indigo-100">
                       {typeof item.ioedu === "boolean" ? (
                         <div className="w-7 h-7 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center mx-auto">
@@ -156,7 +156,7 @@ export function ComparisonTable() {
             Negociação sob medida com base nas necessidades da sua operação.
           </p>
           <a
-            href={getWhatsAppUrl("Olá! Vi o comparativo do io.edu e quero entender a melhor opção para migrar ou lançar meus cursos.")}
+            href={getWhatsAppUrl("Olá! Vi o comparativo do io-edu e quero entender a melhor opção para migrar ou lançar meus cursos.")}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-[#4f46e5] hover:text-[#4338ca] font-semibold text-sm group"

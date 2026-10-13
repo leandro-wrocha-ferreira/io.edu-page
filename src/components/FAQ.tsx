@@ -16,7 +16,7 @@ export function FAQ() {
     {
       question: "Como recebo os pagamentos das vendas dos meus cursos?",
       answer:
-        "O io.edu integra nativamente com o gateway de pagamentos Asaas. Você cria sua conta no Asaas, cadastra a sua chave de API na plataforma e o dinheiro de todas as vendas (Pix, Cartão e Boleto) cai diretamente na sua conta bancária, com as menores taxas do mercado e sem intermediários retendo seu saldo por semanas.",
+        "O io-edu integra nativamente com o gateway de pagamentos Asaas. Você cria sua conta no Asaas, cadastra a sua chave de API na plataforma e o dinheiro de todas as vendas (Pix, Cartão e Boleto) cai diretamente na sua conta bancária, com as menores taxas do mercado e sem intermediários retendo seu saldo por semanas.",
     },
     {
       question: "Os alunos conseguem assistir pelo computador e aplicativos Android e iOS?",
@@ -107,7 +107,7 @@ export function FAQ() {
             <p className="text-xs sm:text-sm text-slate-500">Fale diretamente com nossa equipe no WhatsApp agora mesmo.</p>
           </div>
           <a
-            href={getWhatsAppUrl("Olá! Gostaria de tirar algumas dúvidas específicas sobre a contratação do io.edu LMS.")}
+            href={getWhatsAppUrl("Olá! Gostaria de tirar algumas dúvidas específicas sobre a contratação do io-edu LMS.")}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-[#25D366] hover:bg-[#20ba59] text-white font-semibold text-sm shadow-sm transition-all shrink-0"

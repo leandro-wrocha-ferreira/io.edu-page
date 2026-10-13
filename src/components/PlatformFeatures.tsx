@@ -39,7 +39,7 @@ export function PlatformFeatures() {
               </h2>
 
               <p className="text-base text-slate-600 leading-relaxed">
-                Esqueça ferramentas fragmentadas. O painel do <strong>io.edu</strong> foi desenhado para você estruturar módulos pedagógicos, organizar turmas, gerenciar permissões e acompanhar relatórios acadêmicos e financeiros em tempo real.
+                Esqueça ferramentas fragmentadas. O painel do <strong>io-edu</strong> foi desenhado para você estruturar módulos pedagógicos, organizar turmas, gerenciar permissões e acompanhar relatórios acadêmicos e financeiros em tempo real.
               </p>
 
               {/* Feature Bullet points */}
@@ -116,7 +116,7 @@ export function PlatformFeatures() {
                   {adminTab === "content" ? (
                     <Image
                       src="/images/admin-content.png"
-                      alt="Gerenciamento de Conteúdo Curricular no io.edu LMS"
+                      alt="Gerenciamento de Conteúdo Curricular no io-edu LMS"
                       fill
                       loading="eager"
                       sizes="(max-width: 1024px) 100vw, 55vw"
@@ -125,7 +125,7 @@ export function PlatformFeatures() {
                   ) : (
                     <Image
                       src="/images/admin-clean.png"
-                      alt="Interface Operacional do Painel Administrativo do io.edu LMS"
+                      alt="Interface Operacional do Painel Administrativo do io-edu LMS"
                       fill
                       loading="eager"
                       sizes="(max-width: 1024px) 100vw, 55vw"
@@ -177,7 +177,7 @@ export function PlatformFeatures() {
                   <div className="relative rounded-xl overflow-hidden aspect-[16/10] bg-slate-50 border border-slate-100">
                     <Image
                       src="/images/classroom-clean.png"
-                      alt="Sala de Aula Virtual no Computador - io.edu LMS"
+                      alt="Sala de Aula Virtual no Computador - io-edu LMS"
                       fill
                       loading="eager"
                       sizes="(max-width: 1024px) 100vw, 55vw"
@@ -231,7 +231,7 @@ export function PlatformFeatures() {
               </h2>
 
               <p className="text-base text-slate-600 leading-relaxed">
-                A retenção do seu aluno começa pela comodidade de estudo. O <strong>io.edu</strong> oferece sala virtual moderna para o navegador no computador e aplicações nativas dedicadas para <strong>Android e iOS</strong>, garantindo que o estudante aprenda onde e quando quiser.
+                A retenção do seu aluno começa pela comodidade de estudo. O <strong>io-edu</strong> oferece sala virtual moderna para o navegador no computador e aplicações nativas dedicadas para <strong>Android e iOS</strong>, garantindo que o estudante aprenda onde e quando quiser.
               </p>
 
               {/* Feature Bullet points */}

@@ -221,7 +221,7 @@ export function Hero() {
                 <div className="relative w-full aspect-[16/10] sm:aspect-[16/9] transition-opacity duration-300">
                   <Image
                     src="/images/classroom-clean.png"
-                    alt="Sala Virtual do Aluno no io.edu LMS - Foco no Aprendizado"
+                    alt="Sala Virtual do Aluno no io-edu LMS - Foco no Aprendizado"
                     fill
                     priority
                     sizes="(max-width: 1200px) 100vw, 1150px"
@@ -235,7 +235,7 @@ export function Hero() {
                 <div className="relative w-full aspect-[16/10] sm:aspect-[16/9] transition-opacity duration-300">
                   <Image
                     src="/images/admin-content.png"
-                    alt="Painel de Gerenciamento de Conteúdo e Módulos do io.edu LMS"
+                    alt="Painel de Gerenciamento de Conteúdo e Módulos do io-edu LMS"
                     fill
                     priority
                     sizes="(max-width: 1200px) 100vw, 1150px"
@@ -282,7 +282,7 @@ export function Hero() {
                       {mobileOS === "ios" ? (
                         <Image
                           src="/images/app-ios.png"
-                          alt="Aplicativo Nativo iOS para Alunos - io.edu LMS"
+                          alt="Aplicativo Nativo iOS para Alunos - io-edu LMS"
                           fill
                           sizes="300px"
                           className="object-cover object-top"
@@ -290,7 +290,7 @@ export function Hero() {
                       ) : (
                         <Image
                           src="/images/app-android.png"
-                          alt="Aplicativo Nativo Android para Alunos - io.edu LMS"
+                          alt="Aplicativo Nativo Android para Alunos - io-edu LMS"
                           fill
                           sizes="300px"
                           className="object-cover object-top"

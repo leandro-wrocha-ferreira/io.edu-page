@@ -18,7 +18,7 @@ export function ContactModal({ isOpen, onClose }: ContactModalProps) {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const formattedMessage = `Olá! Meu nome é ${name}${email ? ` (${email})` : ""}. Tenho interesse na plataforma LMS White-Label io.edu para o segmento de ${projectType}. Gostaria de agendar uma demonstração!`;
+    const formattedMessage = `Olá! Meu nome é ${name}${email ? ` (${email})` : ""}. Tenho interesse na plataforma LMS White-Label io-edu para o segmento de ${projectType}. Gostaria de agendar uma demonstração!`;
     const url = getWhatsAppUrl(formattedMessage);
     window.open(url, "_blank");
     onClose();
